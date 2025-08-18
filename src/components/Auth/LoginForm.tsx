@@ -47,7 +47,7 @@ export default function LoginForm() {
             <img 
               src="/logo-main.png" 
               alt="FIXWIZE" 
-              className="w-32 h-32 md:w-48 md:h-48 object-contain"
+              className="w-24 h-24 md:w-32 md:h-32 object-contain"
             />
           </div>
           <p className="text-gray-600 text-sm md:text-base">Professional Garage Management</p>
