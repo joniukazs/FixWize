@@ -218,19 +218,6 @@ export default function LoginForm() {
           </button>
         </form>
 
-
-        <div className="mt-4 md:mt-6 text-center">
-          <p className="text-xs text-gray-500">
-            {loginMethod === 'email' 
-              ? 'Demo: admin@fixwize.ie / demo123'
-              : userType === 'admin' 
-              ? 'Staff can manage all garage operations'
-              : userType === 'customer'
-              ? 'Customers can track their car services and invoices'
-              : 'Parts suppliers can view requests and submit quotes'
-            }
-          </p>
-        </div>
       </div>
     </div>
   );
