@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Package, DollarSign, Clock, Shield, Building, Calendar } from 'lucide-react';
+import { X, Package, Clock, Shield, Building, Calendar } from 'lucide-react';
 import { useData } from '../../contexts/DataContext';
 
 interface QuoteViewModalProps {

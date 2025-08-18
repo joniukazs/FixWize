@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Filter, Plus, Edit, Trash2, Eye, Download, Send, DollarSign } from 'lucide-react';
+import { Search, Filter, Plus, Edit, Trash2, Eye, Download, Send } from 'lucide-react';
 import { useData } from '../../contexts/DataContext';
 import InvoiceModal from './InvoiceModal';
 import InvoiceViewModal from './InvoiceViewModal';
@@ -296,7 +296,7 @@ export default function InvoiceList() {
 
         {filteredInvoices.length === 0 && (
           <div className="text-center py-12">
-            <DollarSign className="h-12 w-12 text-gray-300 mx-auto mb-4" />
+            <span className="text-6xl text-gray-300 block mb-4">€</span>
             <p className="text-gray-500">No invoices found</p>
           </div>
         )}

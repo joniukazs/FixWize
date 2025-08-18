@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Download, Send, DollarSign } from 'lucide-react';
+import { X, Download, Send } from 'lucide-react';
 import { useData } from '../../contexts/DataContext';
 
 interface InvoiceViewModalProps {
@@ -56,8 +56,8 @@ export default function InvoiceViewModal({ invoice, onClose }: InvoiceViewModalP
           <div className="flex justify-between items-start mb-8">
             <div>
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-red-600 p-2 rounded-lg">
-                  <DollarSign className="h-6 w-6 text-white" />
+                <div className="bg-red-600 p-2 rounded-lg text-white text-xl font-bold">
+                  €
                 </div>
                 <div>
                   <h1 className="text-2xl font-bold text-gray-900">FIXWIZE</h1>

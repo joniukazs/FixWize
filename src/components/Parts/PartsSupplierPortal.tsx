@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Package, Search, Filter, Plus, Clock, CheckCircle, AlertCircle, DollarSign, Building, Phone, Mail, LogOut, Eye, Users } from 'lucide-react';
+import { Package, Search, Filter, Plus, Clock, CheckCircle, AlertCircle, Building, Phone, Mail, LogOut, Eye, Users } from 'lucide-react';
 import { useData } from '../../contexts/DataContext';
 import { useAuth } from '../../contexts/AuthContext';
 import PartQuoteModal from './PartQuoteModal';
@@ -81,7 +81,7 @@ export default function PartsSupplierPortal() {
 
   const tabs = [
     { id: 'requests', label: 'Part Requests', icon: Package },
-    { id: 'quotes', label: 'My Quotes', icon: DollarSign },
+    { id: 'quotes', label: 'My Quotes', icon: Package },
     { id: 'team', label: 'Team Management', icon: Users },
     { id: 'profile', label: 'Supplier Profile', icon: Building }
   ];

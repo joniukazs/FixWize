@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Package, Calendar, DollarSign, AlertTriangle } from 'lucide-react';
+import { X, Package, Calendar, AlertTriangle } from 'lucide-react';
 
 interface PartRequestModalProps {
   part: any;
@@ -135,7 +135,7 @@ export default function PartRequestModal({ part, onClose, onSubmit }: PartReques
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  <DollarSign className="h-4 w-4 inline mr-2" />
+                  <span className="inline mr-2">€</span>
                   Maximum Price per Unit (€)
                 </label>
                 <input

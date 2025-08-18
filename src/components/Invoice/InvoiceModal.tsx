@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Plus, Trash2, DollarSign } from 'lucide-react';
+import { X, Plus, Trash2 } from 'lucide-react';
 import { useData } from '../../contexts/DataContext';
 
 interface InvoiceModalProps {

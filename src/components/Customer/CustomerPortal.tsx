@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Car, FileText, Clock, CheckCircle, AlertCircle, Calendar, DollarSign, LogOut, Bell, X } from 'lucide-react';
+import { Car, FileText, Clock, CheckCircle, AlertCircle, Calendar, LogOut, Bell, X } from 'lucide-react';
 import { useData } from '../../contexts/DataContext';
 import { useAuth } from '../../contexts/AuthContext';
 
@@ -378,7 +378,7 @@ export default function CustomerPortal() {
                   </div>
                   <div className="bg-purple-50 rounded-lg p-4">
                     <div className="flex items-center">
-                      <DollarSign className="h-8 w-8 text-purple-600" />
+                      <span className="text-2xl text-purple-600">€</span>
                       <div className="ml-4">
                         <p className="text-sm font-medium text-purple-600">Total Spent</p>
                         <p className="text-2xl font-bold text-purple-900">
