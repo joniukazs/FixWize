@@ -13,7 +13,7 @@ export default function WorkOrderModal({
   workOrder,
   initialDate
 }: WorkOrderModalProps) {
-  const { customers, cars, addWorkOrder, updateWorkOrder, addCustomer, addCar } = useData();
+  const { customers, cars, addWorkOrder, updateWorkOrder, addCustomer, addCar, updateCar, updateCustomer } = useData();
   const [activeTab, setActiveTab] = useState('basic');
   const [customerMode, setCustomerMode] = useState<'existing' | 'new'>('existing');
   
