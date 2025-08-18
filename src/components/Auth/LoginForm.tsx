@@ -51,7 +51,6 @@ export default function LoginForm() {
             />
           </div>
           <p className="text-gray-600 text-sm md:text-base">Professional Garage Management</p>
-          <p className="text-xs text-gray-500 mt-2">Developed by RJS version: v14A6x8</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
